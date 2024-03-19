@@ -1,35 +1,15 @@
 ---
-title: "This is our dummy form"
+title: "This is our dummy page for a course"
 ---
 
 This is a Quarto website of a simple form.
 
-# Feedback Form
+# Course video
 
-Please fill out this form:
+## Course content
 
-<form id="feedbackForm">
-  <label for="age">Age:</label><br>
-  <input type="text" id="age" name="age"><br>
-  <label for="weight">Weight:</label><br>
-  <input type="text" id="weight" name="weigth"><br>
-  <input type="radio" id="option1" name="feedback" value="option1">
-  <label for="option1">Option 1</label><br>
-  <input type="radio" id="option2" name="feedback" value="option2">
-  <label for="option2">Option 2</label><br>
-  <input type="button" value="Submit" onclick="handleSubmit()">
-</form>
+Let's assume we have a bunch of text here that explains how the course is structured, it's content and maybe some exercises.
 
-<div id="resultText" style="display:none;"></div>
+## And this is an embedded video
 
-<script>
-function handleSubmit() {
-  var resultText = document.getElementById('resultText');
-  if (document.getElementById('option1').checked) {
-    resultText.innerHTML = "This bit of text means the user selected Option 1";
-  } else if (document.getElementById('option2').checked) {
-    resultText.innerHTML = "Wow! If you're seeing this bit of text, it means that you selected Option 2";
-  }
-  resultText.style.display = 'block'; // Show the result text
-}
-</script>
+<iframe src="https://tilburguniversity.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=66fdc0c7-3054-43e5-8336-b1380096bdde&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&captions=false&interactivity=none" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player"></iframe>

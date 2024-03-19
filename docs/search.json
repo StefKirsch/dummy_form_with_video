@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "This is our dummy form",
+    "title": "This is our dummy page for a course",
     "section": "",
-    "text": "This is a Quarto website of a simple form.\n\nFeedback Form\nPlease fill out this form:\n\nAge:  Weight:   Option 1  Option 2"
+    "text": "This is a Quarto website of a simple form."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "This calculator was built in Quarto and is based on a Guidelines Document …"
+  },
+  {
+    "objectID": "index.html#and-this-is-an-embedded-video",
+    "href": "index.html#and-this-is-an-embedded-video",
+    "title": "This is our dummy page for a course",
+    "section": "And this is an embedded video",
+    "text": "And this is an embedded video"
+  },
+  {
+    "objectID": "index.html#course-content",
+    "href": "index.html#course-content",
+    "title": "This is our dummy page for a course",
+    "section": "Course content",
+    "text": "Course content\nLet’s assume we have a bunch of text here that explains how the course is structured, it’s content and maybe some exercises."
   }
 ]
